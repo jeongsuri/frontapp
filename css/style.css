@@ -298,6 +298,7 @@ footer .links a:not(.ast)::after{ /*last태그는 제외하고*/
     border-top: 1px solid #dfe1e5;
     z-index:10;
     padding: 9px 15px;
+    
 }
 
 .bottom-quick-menu button{
@@ -313,7 +314,7 @@ footer .links a:not(.ast)::after{ /*last태그는 제외하고*/
 }
 .bottom-quick-menu a img{
     height: 30px;
-    display: flex;
+    display: inline-block;
 }
 
 .bottom-quick-links{
